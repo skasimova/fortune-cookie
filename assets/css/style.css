@@ -1,9 +1,42 @@
 h1 {
-  background-color: white;
+  font-size: 2.3em;
+  margin-bottom: 2vh;
+}
+@media (min-width: 1000px) {
+  h1 {
+    margin-bottom: 2vh;
+  }
 }
 
 body {
-  font-family: "Indie Flower", cursive;
+  font-family: "Amatic SC", cursive;
+  font-size: 2em;
+}
+
+.page-wrap {
+  text-align: center;
+  margin-top: 3vh;
+  margin-bottom: 10vh;
+}
+@media (min-width: 1000px) {
+  .page-wrap {
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+  }
+}
+
+.button-container {
+  margin-top: 15px;
+}
+
+.fortune-container {
+  text-align: center;
+  margin-top: 3vh;
+}
+@media (min-width: 1000px) {
+  .fortune-container {
+    margin-top: 4vh;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
